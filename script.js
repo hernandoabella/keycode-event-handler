@@ -1,32 +1,21 @@
-const insert = document.getElementById('insert');
+const insertar = document.getElementById('insertar');
 
 window.addEventListener('keydown', (e) => {
 	console.log(e);
-	insert.innerHTML = `
-		<div class="key">
+	insertar.innerHTML = `
+		<div class="tecla">
 			${e.key === ' ' ? 'Space' : e.key}
 			<small>event.key</small>
 		</div>
-		<div class="key">
+		<div class="tecla">
 			${e.keyCode}
 			<small>event.keyCode</small>
 		</div>
-		<div class="key">
+		<div class="tecla">
 			${e.code}
 			<small>event.code</small>
 		</div>
 	`
 });
 
-// SOCIAL PANEL JS
-const floating_btn = document.querySelector('.floating-btn');
-const close_btn = document.querySelector('.close-btn');
-const social_panel_container = document.querySelector('.social-panel-container');
-
-floating_btn.addEventListener('click', () => {
-	social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-	social_panel_container.classList.remove('visible')
-});
+w
