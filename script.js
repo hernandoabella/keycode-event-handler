@@ -8,8 +8,12 @@ window.addEventListener('keydown', (e) => {
 			<small>event.key</small>
 		</div>
 		<div class="tecla">
-			${e.keyCode}
-			<small>event.keyCode</small>
+			${e.location}
+			<small>event.location</small>
+		</div>
+		<div class="tecla">
+			${e.which}
+			<small>event.which</small>
 		</div>
 		<div class="tecla">
 			${e.code}
