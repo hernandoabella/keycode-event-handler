@@ -8,6 +8,10 @@ Presione cualquier tecla para obtener el código del evento keyCode.
 * CSS
 * JAVASCRIPT
 
+### Caracterítica
+
+
+
 ### Licencia 📄
 
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md) para más detalles.

@@ -15,19 +15,43 @@ body {
 	text-align: center;
 }
 
+.container{
+	width: 400px;
+	border-radius: 25px;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#numero{
+	color: #EA7AF4;
+	text-shadow: 2px 2px 3px #B43E8F;
+	font-size: 5em;
+	padding: 20px;
+	width: 130px;
+	margin: 20px auto;
+	border-radius: 25px;
+	display: none;
+}
+
 .tecla {
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-	background-color: #eee;
+	background: #190039;
 	display: inline-flex;
 	font-size: 20px;
 	flex-direction: column;
 	align-items: center;
 	font-weight: bold;
 	padding: 20px;
+	margin: 20px;
 	position: relative;
-	margin: 10px;
 	min-width: 150px;
 	border-radius: 25px;
+	background: #e0e0e0;
+	box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
 }
 
 .tecla small {
