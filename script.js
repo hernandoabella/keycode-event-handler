@@ -28,5 +28,3 @@ window.addEventListener('keydown', (e) => {
 		</div>
 	`
 });
-
-w
