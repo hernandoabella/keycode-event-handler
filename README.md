@@ -19,10 +19,6 @@ This application allows you to handle key events effortlessly.
 ## Demo Video 🎥
 📺 [Demo Video on YouTube](https://www.youtube.com/watch?v=KEYCODE-DEMO&t)
 
-Watch the video to witness the application in action, showcasing dynamic keycode updates as you interact with your keyboard. Enjoy the demonstration!
-
-Don't forget to subscribe to our YouTube channel for more content related to our applications and future updates.
-
 ## How to get started 🚀
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser.
