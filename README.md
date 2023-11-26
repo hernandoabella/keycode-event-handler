@@ -51,4 +51,4 @@ This project is licensed under the MIT License. Refer to the LICENSE.md file for
 
 We appreciate your interest in this project!
 
-Made with ❤️ by [Your Name](https://github.com/hernandoabella) 😊
+Made with ❤️ by [Hernando Abella](https://github.com/hernandoabella) 😊
