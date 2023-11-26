@@ -2,7 +2,7 @@
 Press any key to get the keyCode event code.
 
 ### Screenshot
-![405043638_365912365968414_5038503568681266354_n](https://github.com/hernandoabella/evento-keycode/assets/24196857/b3a3f21a-ab50-48e4-9e71-0194e623e9a8)
+
 
 ### Built with 🛠️
 * HTML
