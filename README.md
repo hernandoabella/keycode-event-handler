@@ -13,13 +13,10 @@ This application allows you to handle key events effortlessly.
 
 ## Screenshot 📷
 
-
 ## Live demo 🎉
-Explore the live demo of this application to experience real-time keycode handling: [DEMO](https://awesome-keycode-handler.netlify.app/).
+[DEMO](https://awesome-keycode-handler.netlify.app/)
 
 ## Demo Video 🎥
-For a more comprehensive understanding of how the Keycode Event Handler works, check out our YouTube demonstration video.
-
 📺 [Demo Video on YouTube](https://www.youtube.com/watch?v=KEYCODE-DEMO&t)
 
 Watch the video to witness the application in action, showcasing dynamic keycode updates as you interact with your keyboard. Enjoy the demonstration!
