@@ -1,30 +1,28 @@
-const insertar = document.getElementById('insertar');
-const numero = document.getElementById('numero');
+const insert = document.getElementById("insert");
+const number = document.getElementById("number");
 
-window.addEventListener('keydown', (e) => {
-	console.log(numero);
-	console.log(e);
-	numero.style.display = "block";
-	numero.innerHTML = `
+window.addEventListener("keydown", (e) => {
+  console.log(number);
+  console.log(e);
+  number.style.display = "block";
+  number.innerHTML = `
 		<div>${e.which}</div>
 	`;
-	
-	insertar.innerHTML = `
-		<div class="tecla">
-			${e.key === ' ' ? 'Space' : e.key}
-			<small>event.key</small>
+
+  insert.innerHTML = `
+		<div class="key__container">
+			<div class="key">
+				<div class="value">${e.key === " " ? "Space" : e.key}</div>
+				<small>event.key</small>
+			</div>
+			<div class="key">
+				<div class="value">${e.location}</div>
+				<small>event.location</small>
+			</div>
+			<div class="key">
+				<div class="value">${e.code}</div>
+				<small>event.code</small>
+			</div>
 		</div>
-		<div class="tecla">
-			${e.location}
-			<small>event.location</small>
-		</div>
-		<div class="tecla">
-			${e.which}
-			<small>event.which</small>
-		</div>
-		<div class="tecla">
-			${e.code}
-			<small>event.code</small>
-		</div>
-	`
+	`;
 });
