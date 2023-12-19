@@ -12,6 +12,8 @@ This application allows you to handle key events effortlessly.
 - JavaScript
 
 ## Screenshot 📷
+![KeyCode-Event-Handler-🎊😎✨](https://github.com/hernandoabella/keycode-event-handler/assets/24196857/3b15b17e-9230-4861-87d2-d42af529f19b)
+
 
 ## Live demo 🎉
 [Demo](https://keycode-handler.netlify.app/)
