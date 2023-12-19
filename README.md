@@ -14,7 +14,7 @@ This application allows you to handle key events effortlessly.
 ## Screenshot 📷
 
 ## Live demo 🎉
-[DEMO](https://awesome-keycode-handler.netlify.app/)
+[Demo](https://keycode-handler.netlify.app/)
 
 ## Demo Video 🎥
 📺 [Demo Video on YouTube](https://www.youtube.com/watch?v=KEYCODE-DEMO&t)
