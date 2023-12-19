@@ -2,15 +2,15 @@ const insert = document.getElementById("insert");
 const number = document.getElementById("number");
 
 window.addEventListener("keydown", (e) => {
-	if (e.key === "Escape") {
-	  number.style.display = "none";
-	  return;
-	}
-  
-	number.style.display = "block";
-	number.innerText = e.which;
-  
-	insert.innerHTML = `
+  if (e.key === "Escape") {
+    number.style.display = "none";
+    return;
+  }
+
+  number.style.display = "block";
+  number.innerText = e.which;
+
+  insert.innerHTML = `
 		  <div class="key__container">
 			  <div class="key">
 				  <div class="value">${e.key === " " ? "Space" : e.key}</div>
@@ -26,5 +26,4 @@ window.addEventListener("keydown", (e) => {
 			  </div>
 		  </div>
 	  `;
-  });
-  
+});
